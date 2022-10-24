@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 3.5rem 3rem;
+  border: lightblue 2px solid;
+  padding: 2.5rem;
+  color: blue;
+}
+
+.namelist {
+  padding: 0.5rem 1rem;
+}
+
+.button {
+  color: lightblue;
+  padding: 0.2rem;
+  border: none;
+  background-color: blue;
+}
+
+.button:hover {
+  color: blue;
+  background-color: lightblue;
+  transition: 0.8s;
+}
+
+.paglist {
+  display: flex;
+  gap: 0.2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.number-list {
+  color: blue;
+  padding: 0.2rem;
+  border: none;
+  background-color: lightblue;
+  padding: 0.2rem;
+}
+
+.number-list:hover {
+  color: lightblue;
+  background-color: blue;
+  transition: 0.8s;
+}
+
+.errrorpage p {
+  margin-top: 1rem;
+}
+
+.errlist {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.list a {
+  color: blue;
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.list:hover a {
+  color: white;
+  transition: 0.8s;
+}
